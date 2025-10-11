@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yashikyadavandco.com/sitemap.xml
+
+User-agent: *
+Disallow: /404
