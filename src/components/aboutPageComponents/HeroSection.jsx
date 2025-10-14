@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div
-  className="section bg-image-about pb-0 px-xl-0"
- 
->
+    <div className="section bg-image-about pb-0 px-xl-0">
       <div className="r-container float-container">
         <div className="row row-cols-xl-2 row-cols-1 mt-5 justify-content-between">
           <div className="col col-xl-10 mb-3">
@@ -14,13 +12,21 @@ const HeroSection = () => {
                 ABOUT US
               </h1>
               <div className="d-flex flex-lg-row flex-column-reverse align-items-center justify-content-xl-between justify-content-center gap-lg-5">
-                <img src="/image/icon 6.png" className="img-fluid" alt="Yashik Yadav and Co brand identity icon"
-                  style={{ marginLeft: '8rem', marginTop: '3rem', }} />
+                <img
+                  src="/image/icon 6.png"
+                  className="img-fluid"
+                  alt="Yashik Yadav and Co brand identity icon"
+                  style={{ marginLeft: "8rem", marginTop: "3rem" }}
+                />
                 <h2 className="fw-normal fst-italic text-end scrollanimation animated fadeInDown adr-9 adl-2">
                   WHO WE ARE & <br /> OUR MISSION
                 </h2>
               </div>
-              <button className="btn-play ms-auto" type="button" data-bs-toggle="modal" data-bs-target="#e119">
+              <button
+                className="btn-play ms-auto"
+                type="button"
+                data-bs-target="#e119"
+              >
                 <p className="btn-play__text">
                   <span style={{ "--index": 0 }}>C</span>
                   <span style={{ "--index": 1 }}>R</span>
@@ -57,10 +63,13 @@ const HeroSection = () => {
                   <span style={{ "--index": 32 }}>L</span>
                   <span style={{ "--index": 33 }}>.</span>
                 </p>
-                <a href="/about-us" className="btn-play__circle bg-accent-color-3">
+                <Link
+                  to="/about-us"
+                  className="btn-play__circle bg-accent-color-3"
+                >
                   <i className="rtmicon rtmicon-arrow-down-right btn-play__icon"></i>
                   <i className="rtmicon rtmicon-arrow-down-right btn-play__icon btn-play__icon--copy"></i>
-                </a>
+                </Link>
               </button>
             </div>
           </div>
@@ -69,10 +78,27 @@ const HeroSection = () => {
               <p className="follow-text">FOLLOW US</p>
               <i className="rtmicon rtmicon-arrow-down text-color-2"></i>
               <div className="social-icons">
-               <a href="https://www.facebook.com" aria-label="Follow us on Facebook"><i className="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com" aria-label="Follow us on Instagram"><i className="fa-brands fa-instagram"></i></a>
-                <a href="https://x.com" aria-label="Follow us on Twitter"><i className="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.youtube.com" aria-label="Follow us on YouTube"><i className="fa-brands fa-youtube"></i></a>
+                <a
+                  href="https://www.facebook.com"
+                  aria-label="Follow us on Facebook"
+                >
+                  <i className="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  aria-label="Follow us on Instagram"
+                >
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://x.com" aria-label="Follow us on Twitter">
+                  <i className="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com"
+                  aria-label="Follow us on YouTube"
+                >
+                  <i className="fa-brands fa-youtube"></i>
+                </a>
               </div>
             </div>
           </div>

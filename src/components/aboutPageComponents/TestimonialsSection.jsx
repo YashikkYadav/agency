@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const TestimonialsSection = () => {
   const reviewSchema = {
@@ -116,13 +117,13 @@ const TestimonialsSection = () => {
               From strategy to execution, here's how Yashik Yadav and Co has{" "}
               <br /> transformed brands and delivered exceptional results.
             </p>
-            <a
-              href="/about-us"
+            <Link
+              to="/about-us"
               className="icon-box"
               aria-label="Learn more about our client success stories"
             >
               <i className="rtmicon rtmicon-arrow-up-right fw-bold"></i>
-            </a>
+            </Link>
           </div>
           <div className="overflow-hidden">
             <div className="swiper swiperTestimonials">

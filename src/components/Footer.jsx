@@ -29,7 +29,7 @@ const Footer = () => {
               <button
                 className="btn-play footer"
                 type="button"
-                data-bs-toggle="modal"
+              
                 data-bs-target="#e119"
               >
                 <p className="btn-play__text">

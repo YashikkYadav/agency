@@ -31,7 +31,7 @@ const HeroSection = ({ title, description, icon }) => {
                     {heroTitle} 
                   </h1>
                 </div>
-                <button className="btn-play ms-auto" type="button" data-bs-toggle="modal" data-bs-target="#e119">
+                <button className="btn-play ms-auto" type="button"  data-bs-target="#e119">
                   <p className="btn-play__text">
                     <span style={{ "--index": 0 }}>C</span>
                     <span style={{ "--index": 1 }}>R</span>

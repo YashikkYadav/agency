@@ -31,7 +31,7 @@ const BlogSection = () => {
                     alt="Social media trends blog post image"
                     style={{ aspectRatio: "5/3" }}
                   />
-                  <Link to="/single-post" className="card-blog-detail">
+                  <Link to="/" className="card-blog-detail">
                     <div className="button">Social Media Strategies</div>
                     <h5>5 Social Media Trends You Need to Know in 2025</h5>
                     <div className="small-text card-blog-date">
@@ -50,7 +50,7 @@ const BlogSection = () => {
                     }}
                   />
                 </div>
-                <Link to="/single-post" className="card-blog-row">
+                <Link to="/" className="card-blog-row">
                   <img
                     className="img-fluid"
                     src="/image/15.jpg"
@@ -78,7 +78,7 @@ const BlogSection = () => {
                   alt="Best time to post on social media blog post image"
                   style={{ aspectRatio: "5/6" }}
                 />
-                <Link to="/single-post" className="card-blog-detail">
+                <Link to="/" className="card-blog-detail">
                   <div className="button">Social Media Strategies</div>
                   <h5>The Best Time to Post on Social Media in 2025</h5>
                   <div className="small-text text-color-2">4 hours ago</div>
@@ -95,12 +95,12 @@ const BlogSection = () => {
                       alt="Branding blog post image"
                       style={{ aspectRatio: "5/3" }}
                     />
-                    {/* <button type="button" className="request-loader" data-bs-toggle="modal"
+                    {/* <button type="button" className="request-loader" 
                       data-bs-target="#e119">
                       <i className="rtmicon rtmicon-play ms-1" aria-hidden="true"></i>
                     </button> */}
                   </div>
-                  <Link to="/single-post" className="card-blog-detail">
+                  <Link to="/" className="card-blog-detail">
                     <div className="button">Branding</div>
                     <h5>
                       The Power of Branding: How Small Businesses Can Stand Out
@@ -110,10 +110,7 @@ const BlogSection = () => {
                     </div>
                   </Link>
                 </div>
-                <Link
-                  to="/single-post"
-                  className="card-blog-row position-relative"
-                >
+                <Link to="/" className="card-blog-row position-relative">
                   <img
                     className="img-fluid"
                     src="/image/14.png"

@@ -25,7 +25,7 @@ const HeroSection = () => {
             </div>
             <div className="row row-cols-xl-3 row-cols-1 align-items-center">
               {/* <div className="col col-xl-2 mb-3">
-                <button className="btn-play" type="button" data-bs-toggle="modal" data-bs-target="#e119">
+                <button className="btn-play" type="button"  data-bs-target="#e119">
                   <p className="btn-play__text">
                     <span style={{ "--index": 0 }}>C</span>
                     <span style={{ "--index": 1 }}>R</span>

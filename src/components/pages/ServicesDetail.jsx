@@ -110,7 +110,7 @@ const ServicesDetail = () => {
                     alt={`Yashik Yadav and Co ${serviceDetail.title} service`}
                     style={{ aspectRatio: '16/9' }} 
                   />
-                  {/* <button type="button" className="request-loader" data-bs-toggle="modal" data-bs-target="#e119">
+                  {/* <button type="button" className="request-loader"  data-bs-target="#e119">
                     <i className="rtmicon rtmicon-play ms-1" aria-hidden="true"></i>
                   </button> */}
                 </div>

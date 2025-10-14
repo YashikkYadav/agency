@@ -1,11 +1,15 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
     <div>
       <Helmet>
-        <link rel="canonical" href="https://yashikyadavandco.com/pricing-plan" />
+        <link
+          rel="canonical"
+          href="https://yashikyadavandco.com/pricing-plan"
+        />
       </Helmet>
       {/* Hero */}
       <div className="section bg-image-pricing pb-0 px-xl-0">
@@ -17,13 +21,21 @@ const Pricing = () => {
                   PRICING PLAN
                 </h2>
                 <div className="d-flex flex-lg-row flex-column-reverse align-items-center justify-content-xl-between justify-content-center gap-lg-5">
-                  <img src="/image/icon 6.png" className="img-fluid" alt="Decorative icon for pricing page"
-                    style={{ marginLeft: '8rem', marginTop: '3rem' }} />
+                  <img
+                    src="/image/icon 6.png"
+                    className="img-fluid"
+                    alt="Decorative icon for pricing page"
+                    style={{ marginLeft: "8rem", marginTop: "3rem" }}
+                  />
                   <h2 className="fw-normal fst-italic text-end scrollanimation animated fadeInDown adr-9 adl-2">
                     FLEXIBLE PACKAGES <br /> FOR YOUR NEEDS
                   </h2>
                 </div>
-                <button className="btn-play ms-auto" type="button" data-bs-toggle="modal" data-bs-target="#e119">
+                <button
+                  className="btn-play ms-auto"
+                  type="button"
+                  data-bs-target="#e119"
+                >
                   <p className="btn-play__text">
                     <span style={{ "--index": 0 }}>C</span>
                     <span style={{ "--index": 1 }}>R</span>
@@ -60,10 +72,13 @@ const Pricing = () => {
                     <span style={{ "--index": 32 }}>L</span>
                     <span style={{ "--index": 33 }}>.</span>
                   </p>
-                  <a href="/about-us" className="btn-play__circle bg-accent-color-3">
+                  <Link
+                    to="/about-us"
+                    className="btn-play__circle bg-accent-color-3"
+                  >
                     <i className="rtmicon rtmicon-arrow-down-right btn-play__icon"></i>
                     <i className="rtmicon rtmicon-arrow-down-right btn-play__icon btn-play__icon--copy"></i>
-                  </a>
+                  </Link>
                 </button>
               </div>
             </div>

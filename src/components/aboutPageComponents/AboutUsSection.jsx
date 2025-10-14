@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutUsSection = () => {
   return (
@@ -45,7 +46,6 @@ const AboutUsSection = () => {
                 <button
                   className="btn-play about-us position-absolute"
                   type="button"
-                  data-bs-toggle="modal"
                   data-bs-target="#e119"
                   style={{ bottom: "-17%", right: "18%" }}
                 >
@@ -85,13 +85,13 @@ const AboutUsSection = () => {
                     <span style={{ "--index": 32 }}>L</span>
                     <span style={{ "--index": 33 }}>.</span>
                   </p>
-                  <a
-                    href="/about-us"
+                  <Link
+                    to="/about-us"
                     className="btn-play__circle about bg-accent-color-4"
                   >
                     <i className="rtmicon rtmicon-arrow-down-right text-color btn-play__icon"></i>
                     <i className="rtmicon rtmicon-arrow-down-right btn-play__icon btn-play__icon--copy"></i>
-                  </a>
+                  </Link>
                 </button>
               </div>
             </div>
