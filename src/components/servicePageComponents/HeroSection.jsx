@@ -1,5 +1,5 @@
-import React from 'react';
-import MarqueeSection from '../aboutPageComponents/MarqueeSection';
+import React from "react";
+import MarqueeSection from "../aboutPageComponents/MarqueeSection";
 
 const HeroSection = () => {
   return (
@@ -14,13 +14,21 @@ const HeroSection = () => {
                   OUR SERVICES
                 </h1>
                 <div className="d-flex flex-lg-row flex-column-reverse align-items-center justify-content-xl-between justify-content-center gap-lg-5">
-                  <img src="/image/icon 6.png" className="img-fluid" alt="Yashik Yadav and Co services excellence"
-                    style={{ marginLeft: '8rem', marginTop: '3rem' }} />
+                  <img
+                    src="/image/icon 6.png"
+                    className="img-fluid"
+                    alt="Yashik Yadav and Co services excellence"
+                    style={{ marginLeft: "8rem", marginTop: "3rem" }}
+                  />
                   <h2 className="fw-normal fst-italic text-end scrollanimation animated fadeInDown adr-9 adl-2">
                     EXPERT SOLUTIONS FOR <br /> DIGITAL SUCCESS
                   </h2>
                 </div>
-                <button className="btn-play ms-auto" type="button"  data-bs-target="#e119">
+                <button
+                  className="btn-play ms-auto"
+                  type="button"
+                  data-bs-target="#e119"
+                >
                   <p className="btn-play__text">
                     <span style={{ "--index": 0 }}>C</span>
                     <span style={{ "--index": 1 }}>R</span>
@@ -57,7 +65,10 @@ const HeroSection = () => {
                     <span style={{ "--index": 32 }}>L</span>
                     <span style={{ "--index": 33 }}>.</span>
                   </p>
-                  <a href="/services" className="btn-play__circle bg-accent-color-3">
+                  <a
+                    href="/services"
+                    className="btn-play__circle bg-accent-color-3"
+                  >
                     <i className="rtmicon rtmicon-arrow-down-right btn-play__icon"></i>
                     <i className="rtmicon rtmicon-arrow-down-right btn-play__icon btn-play__icon--copy"></i>
                   </a>
@@ -65,16 +76,36 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="col col-xl-1 mb-3">
-               <div className="social-wrapper">
-              <p className="follow-text">FOLLOW US</p>
-              <i className="rtmicon rtmicon-arrow-down text-color-2"></i>
-              <div className="social-icons">
-               <a href="https://www.facebook.com" aria-label="Follow us on Facebook"><i className="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com" aria-label="Follow us on Instagram"><i className="fa-brands fa-instagram"></i></a>
-                <a href="https://x.com" aria-label="Follow us on Twitter"><i className="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.youtube.com" aria-label="Follow us on YouTube"><i className="fa-brands fa-youtube"></i></a>
+              <div className="social-wrapper">
+                <p className="follow-text">FOLLOW US</p>
+                <i className="rtmicon rtmicon-arrow-down text-color-2"></i>
+                <div className="social-icons">
+                  <a
+                    href="https://www.facebook.com/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL"
+                    aria-label="Follow us on Facebook"
+                  >
+                    <i className="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                    aria-label="Follow us on Instagram"
+                  >
+                    <i className="fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://x.com/Yashikyadavco?t=w7FhISNj7W-baBQL_dM28g&s=09"
+                    aria-label="Follow us on Twitter"
+                  >
+                    <i className="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a
+                    href="https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA"
+                    aria-label="Follow us on YouTube"
+                  >
+                    <i className="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
@@ -159,7 +190,7 @@ const HeroSection = () => {
           </div>
         </div> */}
 
-        <MarqueeSection/>
+        <MarqueeSection />
       </div>
       {/* End Hero */}
     </>

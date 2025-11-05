@@ -433,16 +433,16 @@ const Header = () => {
                   }}
                   className="social-icons row"
                 >
-                  <a href="https://www.facebook.com">
+                  <a href="https://www.facebook.com/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL">
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
-                  <a href="https://www.instagram.com">
+                  <a href="https://www.instagram.com/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D">
                     <i className="fa-brands fa-instagram"></i>
                   </a>
-                  <a href="https://x.com">
+                  <a href="https://x.com/Yashikyadavco?t=w7FhISNj7W-baBQL_dM28g&s=09">
                     <i className="fa-brands fa-x-twitter"></i>
                   </a>
-                  <a href="https://www.youtube.com">
+                  <a href="https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA">
                     <i className="fa-brands fa-youtube"></i>
                   </a>
                 </div>

@@ -15,10 +15,10 @@ const Layout = () => {
     description:
       "Creative brand building agency specializing in strategic social media management and digital marketing solutions for businesses seeking growth.",
     sameAs: [
-      "https://www.facebook.com",
-      "https://www.instagram.com",
-      "https://x.com",
-      "https://www.youtube.com",
+      "https://www.facebook.com/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL",
+      "https://www.instagram.com/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+      "https://x.com/Yashikyadavco?t=w7FhISNj7W-baBQL_dM28g&s=09",
+      "https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA",
     ],
     contactPoint: {
       "@type": "ContactPoint",
@@ -81,7 +81,7 @@ const Layout = () => {
         </script>
       </Helmet>
       {/* <Header /> */}
-    <Header2/> 
+      <Header2 />
       <main>
         <Outlet />
       </main>

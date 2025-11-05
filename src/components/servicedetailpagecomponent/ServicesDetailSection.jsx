@@ -104,22 +104,25 @@ const ServicesDetailSection = () => {
                 <p>Share Via:</p>
                 <div className="social-icons row">
                   <a
-                    href="https://www.facebook.com"
+                    href="https://www.facebook.com/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL"
                     aria-label="Share on Facebook"
                   >
                     <i className="rtmicon rtmicon-social-share"></i>
                   </a>
                   <a
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
                     aria-label="Share on Instagram"
                   >
                     <i className="rtmicon rtmicon-social-advertising"></i>
                   </a>
-                  <a href="https://x.com" aria-label="Share on Twitter">
+                  <a
+                    href="https://x.com/Yashikyadavco?t=w7FhISNj7W-baBQL_dM28g&s=09"
+                    aria-label="Share on Twitter"
+                  >
                     <i className="rtmicon rtmicon-social-share"></i>
                   </a>
                   <a
-                    href="https://www.youtube.com"
+                    href="https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA"
                     aria-label="Share on YouTube"
                   >
                     <i className="rtmicon rtmicon-social-advertising"></i>
@@ -197,7 +200,7 @@ const ServicesDetailSection = () => {
             <div className="modal-content bg-dark-color">
               <iframe
                 className="ifr-video"
-                src="https://www.youtube.com/embed/FK2RaJ1EfA8?autoplay=1"
+                src="https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA/embed/FK2RaJ1EfA8?autoplay=1"
               ></iframe>
             </div>
           </div>

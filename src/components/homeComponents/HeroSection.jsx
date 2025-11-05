@@ -1,11 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { PlayButton } from '../common/PlayButton';
+import React from "react";
+import { Link } from "react-router-dom";
+import { PlayButton } from "../common/PlayButton";
 
 const HeroSection = () => {
   return (
     <div className="section bg-image pb-0 px-xl-0">
-      <div className="r-container d-flex justify-content-center align-items-center" style={{ minHeight: '80vh' }}>
+      <div
+        className="r-container d-flex justify-content-center align-items-center"
+        style={{ minHeight: "80vh" }}
+      >
         <div className="row row-xl-cols-2 row-cols-1 mt-5 justify-content-between">
           <div className="col col-xl-10 mb-3">
             <div className="row row-cols-xl-2 row-cols-1">
@@ -13,13 +16,16 @@ const HeroSection = () => {
                 <h1 className="text-end fst-italic fw-bold me-xl-5 me-0 scrollanimation animated fadeInDown adr-9">
                   {/* -BOOST YOUR SOCIAL MEDIA// */}
                   {/* {"-We Build your Brands".toUpperCase()}// */}
-
                   -WE BUILD YOUR BRANDS //
                 </h1>
               </div>
               <div className="col col-xl-2 mb-3">
                 <div className="d-flex align-items-end justify-content-end pt-4 float-icon">
-                  <img className="img-fluid" src="/image/icon 2.png" alt=" hero section image" />
+                  <img
+                    className="img-fluid"
+                    src="/image/icon 2.png"
+                    alt=" hero section image"
+                  />
                 </div>
               </div>
             </div>
@@ -68,13 +74,16 @@ const HeroSection = () => {
                   </Link>
                 </button>
               </div> */}
-              <PlayButton/>
+              <PlayButton />
               <div className="col col-xl-10 mb-3">
                 <div className="d-flex flex-column">
-                  <h2 className="text-lg-end scrollanimation animated fadeInDown adr-9 adl-2">That Scale</h2>
+                  <h2 className="text-lg-end scrollanimation animated fadeInDown adr-9 adl-2">
+                    That Scale
+                  </h2>
                   <div className="d-flex flex-lg-row flex-column-reverse align-items-lg-end justify-content-end gap-xl-5 gap-3 w-100">
                     <p className="scrollanimation animated fadeInDown adr-9 adl-6">
-                      Branding and Marketing  <br /> Agency for Businesses & Brands
+                      Branding and Marketing <br /> Agency for Businesses &
+                      Brands
                     </p>
                     {/* <h1 className="text-lg-end scrollanimation animated fadeInDown adr-9 adl-4">*Reboost</h1> */}
                   </div>
@@ -87,10 +96,30 @@ const HeroSection = () => {
               <p className="follow-text">FOLLOW US</p>
               <i className="rtmicon rtmicon-arrow-down text-color-2"></i>
               <div className="social-icons">
-               <a href="https://www.facebook.com" aria-label="Follow us on Facebook"><i className="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com" aria-label="Follow us on Instagram"><i className="fa-brands fa-instagram"></i></a>
-                <a href="https://x.com" aria-label="Follow us on Twitter"><i className="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.youtube.com" aria-label="Follow us on YouTube"><i className="fa-brands fa-youtube"></i></a>
+                <a
+                  href="https://www.facebook.com/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL"
+                  aria-label="Follow us on Facebook"
+                >
+                  <i className="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                  aria-label="Follow us on Instagram"
+                >
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
+                <a
+                  href="https://x.com/Yashikyadavco?t=w7FhISNj7W-baBQL_dM28g&s=09"
+                  aria-label="Follow us on Twitter"
+                >
+                  <i className="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA"
+                  aria-label="Follow us on YouTube"
+                >
+                  <i className="fa-brands fa-youtube"></i>
+                </a>
               </div>
             </div>
           </div>

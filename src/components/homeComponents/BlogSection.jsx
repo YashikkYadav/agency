@@ -140,7 +140,7 @@ const BlogSection = () => {
       <div className="modal fade" id="e119" tabIndex="-1" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered modal-xl">
           <div className="modal-content bg-dark-color">
-            {/* <iframe className="ifr-video" src="https://www.youtube.com/embed/FK2RaJ1EfA8?autoplay=1"></iframe> */}
+            {/* <iframe className="ifr-video" src="https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA/embed/FK2RaJ1EfA8?autoplay=1"></iframe> */}
           </div>
         </div>
       </div>

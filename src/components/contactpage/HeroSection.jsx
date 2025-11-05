@@ -82,22 +82,25 @@ const HeroSection = () => {
                 <i className="rtmicon rtmicon-arrow-down text-color-2"></i>
                 <div className="social-icons">
                   <a
-                    href="https://www.facebook.com"
+                    href="https://www.facebook.com/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL/people/Yashik-Yadav-Co/61572228571839/?mibextid=ZbWKwL"
                     aria-label="Follow us on Facebook"
                   >
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
                   <a
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D/yashikyadavandco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
                     aria-label="Follow us on Instagram"
                   >
                     <i className="fa-brands fa-instagram"></i>
                   </a>
-                  <a href="https://x.com" aria-label="Follow us on Twitter">
+                  <a
+                    href="https://x.com/Yashikyadavco?t=w7FhISNj7W-baBQL_dM28g&s=09"
+                    aria-label="Follow us on Twitter"
+                  >
                     <i className="fa-brands fa-x-twitter"></i>
                   </a>
                   <a
-                    href="https://www.youtube.com"
+                    href="https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA"
                     aria-label="Follow us on YouTube"
                   >
                     <i className="fa-brands fa-youtube"></i>

@@ -169,7 +169,7 @@ const AboutSection = () => {
             <div className="modal-content bg-dark-color">
               <iframe
                 className="ifr-video"
-                src="https://www.youtube.com/embed/FK2RaJ1EfA8?autoplay=1"
+                src="https://www.youtube.com/channel/UC3qcrtRPd8bpvV0hvm_6BnA/embed/FK2RaJ1EfA8?autoplay=1"
               ></iframe>
             </div>
           </div>
